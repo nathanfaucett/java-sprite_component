@@ -128,5 +128,5 @@ public class Sprite extends Component {
     public Sprite setW(float w) { this.w = w; return this; }
 
     public float getH() { return h; }
-    public Sprite setH(float h) { this.height = h; return this; }
+    public Sprite setH(float h) { this.h = h; return this; }
 }
