@@ -15,7 +15,6 @@ public class Sprite extends Component {
     private int z;
 
     private float alpha;
-    private boolean local;
 
     private Integer image;
 
@@ -37,7 +36,6 @@ public class Sprite extends Component {
         z = 0;
 
         alpha = 1f;
-        local = false;
 
         image = new Integer(-1);
 
@@ -68,7 +66,6 @@ public class Sprite extends Component {
         z = 0;
 
         alpha = 1f;
-        local = false;
 
         image = new Integer(-1);
 
@@ -85,9 +82,6 @@ public class Sprite extends Component {
 
     public boolean getVisible() { return visible; }
     public Sprite setVisible(boolean visible) { this.visible = visible; return this; }
-
-    public boolean getLocal() { return local; }
-    public Sprite setLocal(boolean local) { this.local = local; return this; }
 
     public int getLayer() { return layer; }
     public Sprite setLayer(int layer) {
